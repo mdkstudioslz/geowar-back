@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="9.0.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Geowar.Back.BuildingBlocks\Geowar.Back.BuildingBlocks.csproj" />
+    <ProjectReference Include="..\Geowar.Back.Modules.Players\Geowar.Back.Modules.Players.csproj" />
+    <ProjectReference Include="..\Geowar.Back.Modules.World\Geowar.Back.Modules.World.csproj" />
+  </ItemGroup>
+
+</Project>
